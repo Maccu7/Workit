@@ -18,7 +18,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav a {
+#access{
   padding-bottom: 4px;
   font-size: 16px;
   font-weight: 600;
@@ -78,7 +78,7 @@ h1 {
   z-index: 1;
 }
 h1 span {
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid rgb(0, 128, 0);
 }
 header a {
   position: absolute;
@@ -128,6 +128,7 @@ section {
 }
 .all{
   display: flex;
+  display: none;
 }
 .number h4 {
   font-size: 20px;
