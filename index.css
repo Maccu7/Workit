@@ -66,6 +66,9 @@ header img{
   width: 20%;
   z-index: 1;
 }
+.header-background{
+  clip-path: ellipse(100% 70% at 50% 30%);
+}
 h1 {
   position: absolute;
   top: 0;
@@ -106,6 +109,7 @@ main {
   height: 800px;
   background-color:#fcf8ff;
   z-index: -1;
+  clip-path: ellipse(100% 70% at 50% 30%);
 }
 
 section {
