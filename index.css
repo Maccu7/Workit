@@ -80,7 +80,7 @@ h1 {
   color: white;
   z-index: 1;
 }
-h1 span {
+#line{
   border-bottom: 3px solid rgb(0, 128, 0);
 }
 header a {
@@ -109,7 +109,7 @@ main {
   height: 800px;
   z-index: -1;
   clip-path: ellipse(100% 70% at 50% 30%);
-  background-color:#fcf8ff;
+ 
 }
 section {
   display: flex;
@@ -127,12 +127,13 @@ section {
   border-radius: 50%;
 }
 .numbers{
-  margin-top: 300px;
+  margin-top: 300px;   
 }
 .all{
   display: flex;
   display: none;
   width: 100%;
+  background-color:#fcf8ff;
 }
 .number h4 {
   font-size: 20px;
